@@ -1,0 +1,52 @@
+How to check variables:
+	 - Use typeof operator
+	 - 6 build-in data types:
+	  •	boolean : represents values true or false
+	  •	number : represents integer and floating point values
+	  •	string : represents textual data
+	  •	null : can only be represented as the value null. It's used to indicate the absence of a value
+	  •	undefined : can only be represented as the value undefined
+	  •	symbol : returns a value of type symbol
+
+SyntaxError telling some of your variables have invalid names happens when variable name starts with a number, or have JavaScripts keyword.
+		Example:
+		True:  let x=dinhlong
+			     const x=_12dinhlong
+		False: let x=3dinhlong
+			     let x=varlong
+
+2. Circle Area 
+let x=prompt("Enter Radius?")
+console.log("Area is",Number(x)*3.14);
+
+3. Celsius to Fahrenheit
+let x=prompt("Enter the temperature in Celsius?")
+console.log("The temperature in Fahrenheit is",(Number(x)*1.8+32))
+
+TURTLE EXERCISE
+ 1. Draw a Square
+  for(i=0;i<4;i++)
+  {fd(100)
+  rt(90)}
+ 
+ 2. Draw a equilateral triangles
+  rt(30)
+  fd(100)
+  rt(120)
+  fd(100)
+  rt(120)
+  fd(100)
+
+3. Draw Circles
+  for(i=0;i<18;i++)
+  {
+  //this is one circle:
+  for(u=0;u<360;u++)
+  {
+    fd(1)
+    rt(1)
+  } //
+  rt(20)
+  }
+
+
