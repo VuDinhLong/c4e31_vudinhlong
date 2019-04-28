@@ -98,4 +98,72 @@
 // a=1
 // b=9
 // console.log(Boolean(a > b)) 
-console.log(5==6)
+
+// boolean represent one of two values:true or false
+//     Ex: 8>9 (false); haha (true); 0(false)
+
+// A flow chart is a graphical or symbolic representation of a process. Each step in the process is represented by a different symbol and contains a short description of the process step. The flow chart symbols are linked together with arrows showing the process flow direction.
+
+
+
+// // Nesting if/else statements helps to organize and isolate conditions in order to avoid testing the same condition twice or to minimize the number of times various tests need to be performed
+//     // EX: compare a,b,c
+//             if(a=b){
+//                 if(a=c){console.log("all equal")}
+//                 else{console.log("a=b only")}
+//             }
+//             else{
+//                 if(b=c){console.log("b=c only")}
+//                 else{console.log("all different")}
+//             }
+
+// for(i=1;i<=4;i++)
+// {lt(35)
+// fd(50)
+// rt(70)
+// fd(50)
+// rt(110)
+// fd(50)
+// rt(70)
+// fd(50)
+// lt(125)}
+// clear()
+
+
+// lt(90) 
+// for(i=6;i>=3;i--){
+//     for(u=1;u<=i;u++){
+//      rt(180-(180*(i-2)/i))
+//      fd(100)
+//     }
+//  }
+// clear()
+// // works with any number of polygons 
+
+// heightcm=prompt("INSERT HEIGHT in CM")
+// heightm=heightcm/100
+// weight=prompt("INSERT WEIGHT in KG")
+// BMI = weight/(heightm*heightm)
+// console.log(BMI)
+// if(BMI<=16){
+//     console.log("Severely Underweigh")
+// }
+// else if(BMI<=18.5){
+//     console.log("Underweigh")
+// }
+// else if(BMI<=25){
+//     console.log("Normal")
+// }
+// else if(BMI<=30){
+//     console.log("Overweigh")
+// }
+// else{
+//     console.log("Obese")
+// }
+
+// n=prompt("INSERT a Number")
+// u=1
+// for(i=1;i<=n;i++){
+//     u=u*i
+// }
+// console.log(u)
