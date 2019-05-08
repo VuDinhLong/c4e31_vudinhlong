@@ -51,9 +51,9 @@ const drawSquare=(length,color1)=>{
     drawSquare(100,"red")
     clear()
     
-    T.Anh painting is a spiral of s
+4. T.Anh painting is a spiral of s
 
-4. DRAWSTAR 
+5. DRAWSTAR 
     rt(18)
     const drawStar=(length)=>{
         for(i=0;i<5;i++){
@@ -64,7 +64,7 @@ const drawSquare=(length,color1)=>{
     drawStar(100)
     clear()
 
-5. REMOVE $ SIGN
+6. REMOVE $ SIGN
 const remove_dollar_sign=(s)=>{
     for(i=0;i<s.length;i++){
     s = s.replace('$','')
@@ -74,13 +74,14 @@ const remove_dollar_sign=(s)=>{
 test=remove_dollar_sign("ádjaodjoajd$$$$$$$$$áda$")
 console.log(test)
 
+7. It is good
 string_with_no_dollars = remove_dollar_sign("$80% percent of $life is to show $up")
 if (string_with_no_dollars == "80% percent of life is to show up"){
     console.log("Your function is correct")}
 else{
     console.log("Oops, there's a bug")}
 
-6. EVEN LIST
+8. EVEN LIST
 const get_even_list=(l)=>{
 for(i=0;i< l.length;i++){
     if(l[i]%2==0){}
@@ -89,12 +90,14 @@ for(i=0;i< l.length;i++){
 }
 return l
 }
+
+9. Something wrong :(((
 even_list = get_even_list([1, 2, 5, 9, -10, 6])
 console.log(even_list)
 if (even_list == [2, -10, 6]){
     console.log("Your function is correct")};
 
-7. IS INSIDE
+10. IS INSIDE
 is_inside=([X,Y],[x,y,w,h])=>{
     result=0
     if(x+w>=X && X>=x){
@@ -107,7 +110,8 @@ is_inside=([X,Y],[x,y,w,h])=>{
     else{result="False"}
     return result
 }
-test= is_inside([100, 120], [140, 60,100,200])
+
+11. test= is_inside([100, 120], [140, 60,100,200])
 console.log(test)
 
  
