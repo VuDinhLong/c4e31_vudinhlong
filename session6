@@ -1,0 +1,35 @@
+const context={
+    employees:null
+}
+window.onload= async()=>{
+await getemployees();
+renderemployees()
+viewSalaryemployee()
+}
+
+const getemployees=async()=>{
+    const res= await fetch('http://dummy.restapiexample.com/api/v1/employees')
+    const employeesData=await res.json()
+    context.employees=employeesData
+
+}
+
+const renderemployees=()=>{
+    for(let i=0;i<context.employees.length;i++){
+                employeename.innerHTML+=`<li id="employee_${i}"> 
+                ${context.employees[i].employee_name}
+                </li>`
+    }  
+}
+
+const viewSalaryemployee=()=>{
+    for (let i=0; i<context.employees.length; i++){
+        let li = document.getElementById(`employee_${i}`)
+        let salary = document.getElementById('employee_salary')
+        li.addEventListener('mouseover', () => {
+            salary.innerHTML = ''
+            let eachemployees = context.employees[i]
+            salary.innerHTML += `<b>Salary</b> : ${eachemployees.salary}`
+        })
+    }
+}
